@@ -18,3 +18,12 @@ if(tlstudy>=5){
 }else{
     console.log("\nYou need to study more.");
 }
+
+//loops
+
+let subjects = ["Web Systems","Event Driven Programming","OOP","Networking","Database Management"];
+    console.log ("\nList of my subjects this sem: ");
+
+    for (let i=0; i<subjects.length; i++){
+        console.log (subjects[i]);
+    }
