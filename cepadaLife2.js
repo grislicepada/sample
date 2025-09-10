@@ -10,3 +10,11 @@ let tlsleep = "8";
 let tlstudy = "2";
 
 console.log("\nTotal hours of sleep: "+tlsleep+"\nTotal hours of study: "+tlstudy);
+
+//conditions
+
+if(tlstudy>=5){
+    console.log("\nGreat! You studied enought today.");
+}else{
+    console.log("\nYou need to study more.");
+}
